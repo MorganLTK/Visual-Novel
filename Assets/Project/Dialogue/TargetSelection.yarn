@@ -1,0 +1,19 @@
+﻿title: TargetSelection
+---
+<<declare $target to "none">>
+<<declare $likeness = 0>>
+
+Who would you like to pursue?
+
+-> Target1
+    <<set $target to "target1">>
+-> Target2
+    <<set $target to "target2">>
+-> Target3
+    <<set $target to "target3">>
+
+Boss: So you've chosen {$target}.
+<<set $likeness to 0>>
+    
+<<jump FirstInteraction>>
+===

@@ -1,0 +1,19 @@
+﻿title: FirstInteraction
+---
+{$target}: How are you doing?
+
+-> I'm alright
+    <<if $target == "target1">>
+        <<set $likeness to $likeness + 5>>
+    <<endif>>
+-> Horrible
+    <<if $target == "target2">>
+        <<set $likeness to $likeness + 5>>
+    <<endif>>
+->AMAZING!
+    <<if $target == "target3">>
+        <<set $likeness to $likeness + 5>>
+    <<endif>>
+
+{$target}: my likeness is {$likeness}
+===
