@@ -1,0 +1,110 @@
+﻿title: NerdBeginning
+---
+
+The car pulls to a stop at Adventure Inc. 
+You exit the car and look around. 
+There are a handful of people entering the building, all of which are dressed formally. 
+This is an Adventure Inc company party to celebrate their new product, 
+
+->whatever that is...
+
+You walk up to the door and hand over your forged employee card. 
+The alis you're going by tonight is  
+
+You're a “Remote Finance worker, from a branch on the other side of the world”. 
+The security guard takes one look at you and passes back your badge signaling your entry.
+You walk in; light jazz music echoes through the tall ceilings. 
+You survey your surroundings, keeping an eye out for your target. 
+Unfortunately, there is a sea of people blocking your view. 
+You decide to get to higher ground.
+
+You climb the nearest staircase, gazing down below,
+Theres to many people to search through,
+ worry clings to your gut,
+this can't be how your first mission ends.
+Worry clouds your mind as you reach the top of the stairs.
+Suddenly you collide with someone.  
+
+->ah!
+
+You topple over, falling over top the person you hit.
+
+->Oh my, I’m so sorry
+    <<set $likeness to $likeness + 5>>
+->Watch it!
+->Hey!
+
+{$target}: ughhh...
+
+You scrabble off the person and brush yourself off.  
+You look up to meet a pair of eyes that are familiar. 
+For a second, you forget your mission, and just stare.  
+
+You are abruptly jolted back into reality when you realize where you recognize those eyes.
+It's your target  
+-> Are you ok?
+You reach out your hand to help them up. 
+However, the target has other plans and brushes your hand off to the side, standing up on their own.
+
+{$target}:I’m fine…
+{$target}:You should watch where you're going.
+
+Feeling a bit embarrassed about your lack of awareness, you look to the ground. 
+You notice there’s a book on the ground  
+
+
+-> Cool book!
+    <<set $likeness to $likeness - 5>>
+    You bend down to pick up the fallen book and hand it over to the target 
+    The target looks at the book in your hands and takes it back. 
+    {$target}:Thank you…
+    -> What's it about?
+        Oh! It’s about ancient civilizations and their religions. It studies the similarities of these cultures and sees if there was a link at all between them. It’s fascinating, h-
+        he suddenly cuts himself off.
+        ->That’s cool!
+        {$target}:ya. I guess
+        The target turns to leave
+-> Is that The World Before Us by John Doe?
+    <<set $likeness to $likeness + 5>>
+    The targets face lights up at the mention of the book title.  
+    {$target}:Have you read it!!
+    ->Oh no, just heard good things about it
+        The targets face slightly drops  
+        {$target}:Oh well then…
+        {$target}:it’s a good book; you should read it.
+        -> I’ll have to!
+            The target pauses are taken aback from the sudden energy. 
+            {$target}: Yah
+            He goes to leave
+        -> Maybe I could borrow it from you!
+            <<set $likeness to $likeness + 5>>
+            The target just stares at you stunned. It's almost as if you just slapped him across the face.
+            ->or maybe just from the library
+                You quickly add, hoping you didn’t just offend him.  
+                The targets face returns into a blank cold stare you can't quite shake.  
+                A few moments pass of silence before the target speaks up. 
+                {$target}:Watch where you're going next time
+             He goes to leave 
+->What are you reading?
+    {$target}:Oh! It’s about ancient civilizations and their religions. It studies the similarities of these cultures and sees if there is a link at all between them.
+    The more the target talks, the more passion and knowledge he has. After a minute, he’s almost smiling. It's a complete 180 from the cold expression he has been wearing. 
+    ->That’s cool!
+        He shyly looks at the book now in his hands with the comment. 
+        {$target}: Yeah, it is...
+        {$target}: Anyway, I should probably go
+        He goes to leave  
+
+        -> WAIT
+            Before thinking you grab the targets arm. He spins to you caught off guard with sudden contact.  
+            ->You wanna go for coffee?
+                {$target}:I’m not really a coffee drinker
+                ->Oh, ummm
+                    {$target}:Theres a theatre with a show on ancient civilizations though.
+                    ->Yes!
+                        {$target}:Yes!
+                        {$target}:Oh, where are my manners, I’m Percy.
+                            ->I'm (player name), nice to meet you
+
+    You spend the rest of the night together talking about books and plays. By the end of the night, you arrange to meet at the theatre at 12 the next day. 
+
+===

@@ -5,8 +5,8 @@
 
 Who would you like to pursue?
 
--> Target1
-    <<set $target to "target1">>
+-> Nerd
+    <<set $target to "Nerd">>
 -> Target2
     <<set $target to "target2">>
 -> Target3
@@ -15,5 +15,9 @@ Who would you like to pursue?
 Boss: So you've chosen {$target}.
 <<set $likeness to 0>>
     
+<<if $target == "Nerd">>
+    <<jump NerdBeginning>>
+<<endif>>
+
 <<jump FirstInteraction>>
 ===
