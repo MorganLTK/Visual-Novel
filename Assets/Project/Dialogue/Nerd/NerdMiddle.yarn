@@ -1,0 +1,113 @@
+﻿title: NerdMiddle
+---
+The next day arrives. 
+You meet up with the target at 11:30 and get to your seats. The show starts at exactly 12pm and runs to about 2.
+You did some brief research on the show before you came. It's the story of the gods  
+
+The story goes by.
+Years before our world came, there were 10. These 10 controlled the balance of life for entries in perfect harmony. Until 2 grew tired and decided to cause chaos instead. 
+Then a bunch of wars happened, blah, blah, blah.  
+Personally, you have your own beliefs, but it was interesting to learn about others’ beliefs. 
+The show ends, and the target and you get up to leave. 
+{$target}:What did you think of the show?
+->Good!
+    <<set $likeness to $likeness + 5>>
+->Boring
+    <<set $likeness to $likeness - 5>>
+
+Unkown: PERCEY!!!
+
+You whip around, trying to spot who just shouted. 
+From the crowd you see someone coming your way.  
+{$target}:Is that B!?
+The target tilts his head as the women comes closer. 
+->You know her?
+The woman has now broken through the crowd and is running towards you. 
+{$target}: Ya!
+
+Damn it! You think. Mission is compromised; someone has seen you with the target. 
+
+->Run
+    Your heart starts to hammer in your chest as you turn your body away from the approaching woman.
+
+    You take a step, then another. Before you can take a third, your arm is grabbed, pulling you back.  
+
+    You turn back to face the music. By now the woman is standing in front of you, arms crossed staring into your soul.  
+
+    B:Who is this?
+    ->I'm (insert player name)
+        Gathering all your courage, you give a wave of your hand to say hello, hoping that she stops staring at you.
+        B:Interesting  
+        She looks you up and down, almost like she is assessing you.  
+        You mirror her closed body language, trying to seem confident.  
+        The Target almost noticing the tension cuts in  
+        {$target}:This is B, where friends from school
+        You assess this new information. 
+        This makes the mission difficult; you weren't told the target had any friends.  
+        Well, you will just have to charm her as well!
+
+        ->How did you guys meet?
+            B:We were in the same English class, got to know each other for studying for those horrendous tests in that monster of a class.
+            {$target}:Oh my, don’t remind me. That teacher was horrible
+
+            You note that the target seems like a different person when talking to B.
+
+        ->What are you doing here?
+        B:My friend is the director
+        ->Cool!
+            You try thinking of a different question to ask 
+            B:What do you do for the company?
+
+            ->Finance
+            ->I work with numbers
+            ->I- I work there
+
+            B:Interesting
+
+    ->...
+        B:hmm 
+        B:Who's this?
+
+        {$target}:This is the (insert player name). We met at the company party last night 
+        B:Interesting, what do you do at the company?      
+        ->Finance
+        ->I work with numbers
+        ->I- I work there
+
+        B:Interesting
+
+->Wave
+    You give a small wave as the woman approaches you. She walks up and high fives the target.
+    unknown:Where have you been man! Haven’t seen you in a while.
+    {$target}:I’ve been around
+    unknown: Still a loner I see. Whos your friend?
+    The woman turns to you, looking you up and down.  
+    unknown:Whos this?
+    ->Smile and introduce yourself
+        You: Hi, I’m (Insert Player name).
+        B: I'm B.
+        For a moment she just stares at you. 
+        Its kind of unnerving…
+
+    ->...
+    B:hmm 
+        B:Who's this?
+
+        {$target}:This is the (insert player name). We met at the company party last night 
+        B:Interesting, what do you do at the company?      
+        ->Finance
+        ->I work with numbers
+        ->I- I work there
+
+        B:Interesting
+
+B: Anyway, , I’ll let you get back to it. Have fun on your date!
+You feel your face feel flushed as you watch the woman walk away. 
+
+->Nice meeting you!
+    You wave goodbye as B leaves you and the target alone again.  
+->Bye
+    You give a small farewell to the departing friend, thankful that the interaction is over.  
+->...
+    You turn around wanting to get as far away from B, the target follows close behind you.  
+===
